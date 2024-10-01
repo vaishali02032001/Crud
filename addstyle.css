@@ -1,0 +1,47 @@
+#content{
+    border:1px solid;
+    margin-top:10px; 
+     width:300px;
+    height:300px; 
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color: rgb(244, 240, 240);
+    
+}
+#add{
+      padding: 10px;
+      
+}
+
+.submit{
+    /* margin-top: 20px;
+    margin-left: 40%;
+    background-color:;
+    width:30%;
+    height: 30px; */
+             
+    
+        background-image: linear-gradient(to right, #73C8A9 0%, #373B44  51%, #73C8A9  100%);
+        margin-left: 30%;
+        margin-top: 5%;
+        padding: 10px 40px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+      }
+
+      .submit:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     

@@ -1,0 +1,87 @@
+ /* table{
+    padding:20px;
+    border: 1px solid;
+}  */
+
+#main-content{
+   width: 100%;
+   /* padding: 10px; */
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.edit ,.delete {
+    /* background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%); */
+    background-image: linear-gradient(to right, #2F7336 0%, #AA3A38 51%, #2F7336 100%);
+   
+      padding: 15px 0px ;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;            
+      box-shadow: 0 0 20px #eee;
+      border-radius: 10px;
+      margin-left: 20px;
+      width: 90px;
+      /* margin-bottom: -5%; */
+      /* padding-top: 15px;
+      padding-bottom: 15px; */
+
+      /* display: block; */
+    } 
+
+    
+   
+
+/* .edit{
+   justify-content: space-between;
+   margin-left: 50px;
+   background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
+   transition: 0.5s;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   height: 50px;
+   width: 70px;
+  
+
+
+}
+.delete{
+   background-image: linear-gradient(to right, #780206 0%, #061161  51%, #780206  100%);
+   transition: 0.5s;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   height: 50px;
+   width: 70px;
+
+
+  
+} */
+.edit:hover,.delete:hover{
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+   padding-right: 60px;
+ }
+
+
+ 
+ 
+  .delete {
+    background-image: linear-gradient(to right, #780206 0%, #061161  51%, #780206  100%);
+   
+    } 
+   
+   th{
+      background-color:black;
+      color:white;
+   }
+   /* #action{
+      padding-left: 10px;
+   }
+  */
